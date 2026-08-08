@@ -1,0 +1,7 @@
+[tools]
+# Pinned below the global 0.16.0: the cached raylib-zig package (pinned by
+# hash in build.zig.zon) targets the pre-0.16 std.Build API (Compile.linkLibrary/
+# linkLibC, std.mem.trimLeft, std.process.getEnvVarOwned all moved/removed in
+# 0.16.0), so it fails to even evaluate build.zig under 0.16.0. 0.15.2 is the
+# newest installed version whose Build API it still matches.
+zig = "0.15.2"

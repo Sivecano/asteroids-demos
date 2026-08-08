@@ -1,0 +1,14 @@
+c/asteroids
+cpp/asteroids
+zig/zig-out/
+zig/.zig-cache/
+zig/zig-pkg/
+rust/target/
+go/asteroids
+d/asteroids
+d/bin/
+d/.dub/
+c3/build/
+c3/docs/
+odin/asteroids
+v/asteroids

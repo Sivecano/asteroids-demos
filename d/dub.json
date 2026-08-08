@@ -1,0 +1,17 @@
+{
+	"name": "asteroids-d",
+	"description": "Asteroids clone in D using raylib-d",
+	"authors": [
+		"Brad"
+	],
+	"license": "proprietary",
+	"targetType": "executable",
+	"targetPath": "bin",
+	"mainSourceFile": "source/app.d",
+	"dependencies": {
+		"raylib-d": "~>6.0.1"
+	},
+	"libs": [
+		"raylib"
+	]
+}
